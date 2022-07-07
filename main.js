@@ -1,9 +1,4 @@
-canvas= document.getElementById("canvas");	
-context= canvas.getContext("2d");
 
-	context.rect(50, 50, 200, 150);
-	context.stroke();
-	
 var t = 1;
 		var c = document.querySelector("canvas");	 
 		var $ = c.getContext('2d');
@@ -44,4 +39,9 @@ var t = 1;
 		}
 		run();
 		
+	canvas= document.getElementById("canvas");	
+context= canvas.getContext("2d");
+
+	context.rect(50, 50, 200, 150);
+	context.stroke();
 	
